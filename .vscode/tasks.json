@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "build.mta",
+			"label": "Template: Build MTA: project1/mta.yaml",
+			"taskType": "Build",
+			"projectPath": "/home/user/projects/teszt",
+			"extensions": []
+		},
+		{
+			"type": "npm",
+			"label": "deploy",
+			"script": "deploy"
+		}
+	]
+}
